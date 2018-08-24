@@ -1,0 +1,44 @@
+{
+  "name": "reacteum-cli",
+  "version": "1.0.0",
+  "description": "CLI for reacteum",
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "redux",
+    "redux-saga",
+    "webpack",
+    "reacteum"
+  ],
+  "main": "n/a",
+  "bin": {
+    "reacteum": "./bin/reacteum.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel lib --out-dir bin && chmod +x bin/reacteum.js"
+  },
+  "author": "wonism <yocee57@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonism/reacteum-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wonism/reacteum-cli/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^0.11.0",
+    "fs-extra": "^7.0.0",
+    "hosted-git-info": "^2.7.1",
+    "update-notifier": "^2.5.0",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.3",
+    "@babel/core": "^7.0.0-rc.3",
+    "@babel/preset-env": "^7.0.0-rc.3",
+    "babel-preset-minify": "^0.4.3"
+  }
+}
