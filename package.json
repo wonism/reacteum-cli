@@ -1,6 +1,6 @@
 {
   "name": "reacteum-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for reacteum",
   "keywords": [
     "react",
@@ -29,6 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.1",
     "execa": "^0.11.0",
     "fs-extra": "^7.0.0",
     "hosted-git-info": "^2.7.1",
