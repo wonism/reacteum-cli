@@ -10,4 +10,9 @@
   - transpile
 
 ## 1.0.1 - 2018-12-13
-- Bug fix (install package)
+- Bug fix
+  - Add dependency
+
+## 1.0.2 - 2018-12-13
+- Bug fix
+  - Replace chalk.purple to chalk.magenta
